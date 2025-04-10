@@ -1,6 +1,20 @@
-# Sistema de Gestión de Clases Virtuales EESTP-CUSCO-VIRTUAL
+# EESTP-CUSCO-VIRTUAL
 
-Este sistema automatiza la gestión de clases virtuales para docentes y estudiantes. Incluye control de asistencia, acceso a enlaces únicos por sección, y evaluaciones en línea.
+Sistema web de gestión académica virtual desarrollado con Flask y MySQL. Automatiza el control de clases virtuales, asistencia y evaluaciones en línea para instituciones con múltiples secciones.
 
-## Autor
-Mario Alexander Galiano Acuña – GALIANO-dev
+## 🔧 Tecnologías Usadas
+
+- Python 3
+- Flask
+- MySQL
+- Bootstrap
+- HTML/CSS
+
+## ⚙️ Instalación
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/GALIANO-dev/EESTP-CUSCO-VIRTUAL.git
+cd EESTP-CUSCO-VIRTUAL
+
