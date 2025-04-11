@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Clases de hoy</title>
+</head>
+<body>
+    <h2>Clases de hoy</h2>
+    {% if clases %}
+        <ul>
+            {% for clase in clases %}
+                <li>
+                    <strong>{{ clase.curso }}</strong> – {{ clase.hora_inicio }} a {{ clase.hora_fin }}<br>
+                    <a href="{{ clase.enlace_meet }}" target="_blank">Entrar a clase</a>
+                </li>
+                <br>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No tienes clases programadas para hoy.</p>
+    {% endif %}
+
+    <a href="/logout">Cerrar sesión</a>
+</body>
+</html>
