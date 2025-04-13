@@ -12,6 +12,9 @@ Sistema web de gestión académica virtual desarrollado con Flask y MySQL. Autom
 
 ## ⚙️ Instalación
 
+## Segunda Rama 
+-Nueva caracteristica
+
 1. Clona el repositorio:
 
 ```bash
